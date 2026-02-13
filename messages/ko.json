@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "educators": "교육자용",
+    "learners": "학습자용",
+    "schools": "교육기관용",
+    "pricing": "요금안내",
+    "story": "Loka 스토리",
+    "blog": "블로그",
+    "contact": "문의",
+    "cta": "The Living Textbook 살펴보기",
+    "language": "언어",
+    "theme": "테마"
+  },
+  "footer": {
+    "tagline": "교육자에게 힘을, 학습자에게 몰입을, 그리고 학습을 가속화합니다.",
+    "livingTextbook": "The Living Textbook",
+    "contact": "문의",
+    "platformTitle": "플랫폼",
+    "companyTitle": "회사",
+    "legalTitle": "법적 고지",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "cookies": "쿠키정책",
+    "copyright": "株式会社 6011001118444 / ORBWEVA ABN 62159782318"
+  },
+  "home": {
+    "hero": {
+      "title": "수정이 진보를 만드는 곳",
+      "subtitle": "LokaLingo는 AI 기반 도구로 어학 교육자를 지원하고, 교과서가 아닌 실제 대화에서 만들어진 커리큘럼을 학습자에게 제공합니다.",
+      "primaryCta": "The Living Textbook 살펴보기",
+      "secondaryCta": "무료 데모 예약"
+    },
+    "problems": {
+      "title": "익숙하시죠?",
+      "cards": [
+        {
+          "title": "플랫폼이 수입의 최대 60%를 가져갑니다",
+          "description": "높은 수수료의 마켓플레이스가 교육자의 수입을 갉아먹습니다. 가르치는 건 여러분이지만, 수익은 플랫폼이 가져갑니다."
+        },
+        {
+          "title": "획일적인 커리큘럼은 효과가 없습니다",
+          "description": "기존 교재는 모든 학습자가 다르다는 점을 무시합니다. 일반적인 콘텐츠는 일반적인 결과만 낳습니다."
+        },
+        {
+          "title": "교육 사업 운영은 행정 업무의 늪입니다",
+          "description": "일정 관리, 학습 추적, 평가, 결제 — 모두 다른 도구, 모두 시간을 빼앗습니다."
+        }
+      ]
+    },
+    "difference": {
+      "title": "Loka만의 차별점",
+      "cards": [
+        {
+          "title": "교육자를 위해",
+          "description": "수입의 약 94%를 유지하세요. 좌석당 $6 정액제. 수수료 없음. 여러분의 브랜드, 여러분의 학생, 여러분의 방식으로.",
+          "cta": "자세히 보기"
+        },
+        {
+          "title": "학습자를 위해",
+          "description": "실제 대화로 만들어진 커리큘럼. 모든 교정이 다음 수업이 됩니다.",
+          "cta": "자세히 보기"
+        },
+        {
+          "title": "교육 기관을 위해",
+          "description": "AI 기반 평가, 자동화된 커리큘럼, 예측 가능한 비용으로 학원을 확장하세요.",
+          "cta": "자세히 보기"
+        }
+      ]
+    },
+    "cip": {
+      "title": "CIP 작동 방식",
+      "subtitle": "매 수업이 다음 수업을 더 좋게 만듭니다. 이것이 CIP 선순환입니다.",
+      "steps": [
+        {
+          "title": "포착",
+          "description": "수업 중 실제 대화 오류가 빈 Canvas에 기록됩니다"
+        },
+        {
+          "title": "생성",
+          "description": "AI가 맞춤형 퀴즈, 복습 자료, 간격 반복 학습 목표를 자동 생성합니다"
+        },
+        {
+          "title": "전달",
+          "description": "CEFR 기준에 맞는 콘텐츠가 적절한 수준에서 적절한 시기에 제공됩니다"
+        }
+      ]
+    },
+    "pricing": {
+      "price": "$6",
+      "period": "활성 좌석당, 월",
+      "tagline": "수수료 없음. 숨겨진 비용 없음. 약정 없음.",
+      "comparison": "학생 50명일 때 월 $300 — $3,300이 아닙니다.",
+      "cta": "무료 시작",
+      "note": "성장에 따라 좌석을 추가하세요. 언제든 해지 가능합니다."
+    },
+    "testimonials": {
+      "title": "이용자 후기",
+      "items": [
+        {
+          "quote": "Loka가 제 수업을 완전히 바꿔놓았습니다. 높은 수수료 걱정 없이 제 방식대로 수업을 구성하고 학생들의 진도에 집중할 수 있습니다.",
+          "name": "Julio Marchand",
+          "title": "일본 거주 어학 교사"
+        },
+        {
+          "quote": "유연성과 목표 중심 접근법이 바쁜 일정에 완벽하게 맞습니다.",
+          "name": "Masamichi Y.",
+          "title": "Perverz CEO"
+        }
+      ]
+    },
+    "faq": {
+      "title": "자주 묻는 질문",
+      "items": [
+        {
+          "question": "LokaLingo란 무엇인가요?",
+          "answer": "LokaLingo는 AI 기반 도구로 어학 교육자를 지원하고, 실제 대화로 만들어진 커리큘럼을 학습자에게 제공하는 EdTech 플랫폼입니다. 핵심 제품인 The Living Textbook은 모든 교정을 맞춤형 학습 기회로 전환합니다."
+        },
+        {
+          "question": "iTalki, Preply, Duolingo와 어떻게 다른가요?",
+          "answer": "최대 60%까지 수수료를 부과하는 마켓플레이스와 달리, Loka는 수익 분배 없이 좌석당 $6 정액제입니다. 일반 앱과 달리, Loka는 각 학습자의 실제 대화에서 고유한 커리큘럼을 만듭니다 — 모든 교정이 수업이 됩니다."
+        },
+        {
+          "question": "좌석당 $6에 무엇이 포함되나요?",
+          "answer": "모든 것이 포함됩니다: Canvas 시스템, AI 기반 평가, 학생 관리, 예약 시스템, 진도 추적, CEFR 레벨, 다국어 지원(EN/JP/KO). 등급 구분 없음, 추가 판매 없음."
+        },
+        {
+          "question": "기술적 지식이 필요한가요?",
+          "answer": "전혀 필요 없습니다. 이 플랫폼은 개발자가 아닌 교육자를 위해 설계되었습니다. 웹 브라우저를 사용할 수 있다면 Loka도 사용할 수 있습니다."
+        },
+        {
+          "question": "자체 AI 도구를 사용할 수 있나요?",
+          "answer": "네! BYOK(Bring Your Own Key) 기능을 통해 OpenAI 또는 Anthropic API 키를 연결하여 맞춤형 AI 기능으로 플랫폼을 확장할 수 있습니다."
+        },
+        {
+          "question": "학생 데이터의 소유권은 제게 있나요?",
+          "answer": "물론입니다. 여러분의 데이터는 여러분의 것입니다. 학생 데이터를 판매, 공유하거나 AI 모델 훈련에 사용하지 않습니다. 언제든지 모든 데이터를 내보낼 수 있습니다."
+        },
+        {
+          "question": "플랫폼은 어떤 언어를 지원하나요?",
+          "answer": "플랫폼 인터페이스는 영어, 일본어, 한국어로 제공됩니다. 어떤 언어든 가르칠 수 있습니다 — Canvas와 AI 도구는 언어에 구애받지 않습니다."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "여러분만의 방식으로 가르칠 준비가 되셨나요?",
+      "subtitle": "수입을 온전히 지키면서 학습자에게 진정한 맞춤형 경험을 제공하는 교육자들과 함께하세요.",
+      "primaryCta": "The Living Textbook 체험하기",
+      "secondaryCta": "무료 데모 예약"
+    }
+  },
+  "educators": {
+    "hero": {
+      "title": "교육자에게 힘을",
+      "subtitle": "여러분의 방식으로 가르치고, 수입을 지키세요",
+      "description": "Loka는 AI 기반 평가, 자동화된 커리큘럼, 수수료 없는 좌석당 $6 정액제로 독립적인 교육 사업 운영 도구를 제공합니다."
+    },
+    "painSolution": {
+      "title": "문제 → 해결",
+      "cards": [
+        { "pain": "높은 수수료 (최대 60%)", "solution": "좌석당 $6 정액제 — 수입의 약 94%를 유지" },
+        { "pain": "획일적인 기존 커리큘럼", "solution": "실제 수업에서 만들어진 AI 맞춤형 Canvas" },
+        { "pain": "흩어진 여러 도구들", "solution": "올인원 플랫폼: 일정, 수업, 평가, 결제" }
+      ]
+    },
+    "features": {
+      "title": "필요한 모든 것",
+      "items": [
+        { "title": "Canvas 시스템", "description": "실제 수업 내용으로 채워지는 빈 캔버스 — CIP, ARP, 키워드, 노트" },
+        { "title": "AI 평가", "description": "5차원 평가 모델: 의사소통 능력, 유창성, 청취력, 어휘력, 문법" },
+        { "title": "학생 진도 관리", "description": "CEFR 기준 레벨과 시각적 진도표로 모든 학생의 여정을 추적" },
+        { "title": "예약 관리", "description": "캘린더 연동과 자동 알림이 포함된 내장 일정 시스템" },
+        { "title": "CEFR 레벨", "description": "일관되고 의미 있는 평가를 위한 국제 공인 프레임워크" },
+        { "title": "다국어 지원", "description": "영어, 일본어, 한국어로 이용 가능한 플랫폼" }
+      ]
+    },
+    "earnings": {
+      "title": "수입을 지키세요",
+      "subtitle": "Loka와 수수료 기반 플랫폼의 비교",
+      "headers": ["학생 수", "학생 결제액", "Loka 비용", "순수입", "수수료 플랫폼", "순수입"],
+      "rows": [
+        ["10", "월 $50/인", "$60/월", "$440/월 (88%)", "$500 × 40%", "$300/월 (60%)"],
+        ["25", "월 $50/인", "$150/월", "$1,100/월 (88%)", "$1,250 × 40%", "$750/월 (60%)"],
+        ["50", "월 $50/인", "$300/월", "$2,200/월 (88%)", "$2,500 × 40%", "$1,500/월 (60%)"],
+        ["100", "월 $50/인", "$600/월", "$4,400/월 (88%)", "$5,000 × 40%", "$3,000/월 (60%)"]
+      ]
+    },
+    "cta": {
+      "title": "Loka로 가르치기 시작하세요",
+      "subtitle": "여러분의 브랜드. 여러분의 학생. 여러분의 수입.",
+      "button": "시작하기"
+    }
+  },
+  "learners": {
+    "hero": {
+      "title": "실수가 최고의 선생님입니다",
+      "subtitle": "Loka는 일반 교재가 아닌 여러분의 실제 대화에서 고유한 커리큘럼을 만듭니다. 모든 교정이 다음 한 걸음의 영감이 됩니다."
+    },
+    "cip": {
+      "title": "학습이 진화하는 방법",
+      "steps": [
+        { "label": "실수", "description": "대화 중 자연스러운 오류가 발생합니다" },
+        { "label": "교정", "description": "교사가 Canvas에 CIP로 기록합니다" },
+        { "label": "수업", "description": "AI가 여러분만을 위한 맞춤 복습 자료를 생성합니다" },
+        { "label": "진보", "description": "간격 반복 학습으로 시간이 지나며 완전히 습득합니다" }
+      ]
+    },
+    "difference": {
+      "title": "Loka만의 차별점",
+      "cards": [
+        { "title": "맞춤형 커리큘럼", "description": "여러분의 Canvas는 실제 대화에서 만들어집니다. 어떤 학습자도 같은 내용을 받지 않습니다." },
+        { "title": "CEFR 기반 진도", "description": "국제 공인 레벨로 5가지 차원의 실력을 추적하세요." },
+        { "title": "AI 기반 복습", "description": "스마트 퀴즈와 간격 반복 학습이 여러분의 약점을 정확히 겨냥합니다." }
+      ]
+    },
+    "pillars": {
+      "title": "세 가지 기둥",
+      "items": [
+        { "title": "양성(Nurture)", "description": "실수를 학습 기회로 환영하는 따뜻한 환경입니다." },
+        { "title": "안내(Guide)", "description": "CEFR 기반 목표와 평가를 통한 명확하고 측정 가능한 성장입니다." },
+        { "title": "가속(Accelerate)", "description": "여러분의 속도에 맞추고 필요를 겨냥하는 AI 기반 학습입니다." }
+      ]
+    },
+    "cta": {
+      "title": "학습 시작하기",
+      "subtitle": "여러분만을 위해 만들어진 커리큘럼을 경험하세요.",
+      "button": "시작하기"
+    }
+  },
+  "schools": {
+    "hero": {
+      "title": "AI로 어학원을 확장하세요",
+      "subtitle": "예측 가능한 비용, 자동화된 평가, 23년간 학원을 운영해 온 사람이 만든 플랫폼."
+    },
+    "advantage": {
+      "title": "23년의 경험",
+      "description": "Accent Language School은 17,000건 이상의 수업을 진행했습니다. 우리는 문제를 연구한 것이 아니라 직접 겪었습니다. The Living Textbook은 이론이 아닌 실제 교실의 필요에서 탄생했습니다."
+    },
+    "features": {
+      "title": "교육 기관이 얻는 것",
+      "items": [
+        { "title": "다중 교사 관리", "description": "하나의 대시보드에서 여러 교육자, 일정, 학생을 관리합니다." },
+        { "title": "AI 평가", "description": "수시간의 수동 평가를 절약하는 자동화된 5차원 평가." },
+        { "title": "자동화 커리큘럼", "description": "AI가 매 수업에서 맞춤형 학습 자료를 생성합니다." },
+        { "title": "진도 분석", "description": "시각적 대시보드로 학원 전체 학생의 진도를 추적합니다." },
+        { "title": "예약 시스템", "description": "캘린더 동기화와 자동 알림이 통합된 일정 관리." },
+        { "title": "화이트라벨 (출시 예정)", "description": "플랫폼을 여러분의 브랜드로 꾸미세요. 기업 학원용으로 곧 출시됩니다." }
+      ]
+    },
+    "cost": {
+      "title": "예측 가능한 비용",
+      "description": "거래당 수수료 없음. 수익 분배 없음. 학생이 $20를 내든 $200를 내든 좌석당 $6."
+    },
+    "caseStudy": {
+      "title": "사례 연구",
+      "description": "Accent Language School이 The Living Textbook을 사용하여 17,000건 이상의 수업을 제공하는 방법을 확인하세요."
+    },
+    "cta": {
+      "title": "학원 데모 예약",
+      "subtitle": "Loka가 어떻게 여러분의 어학원을 확장할 수 있는지 알아보세요.",
+      "button": "데모 예약"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "간단한 요금제",
+      "subtitle": "단일 플랜. 모든 것 포함. 놀랄 일 없음."
+    },
+    "card": {
+      "price": "$6",
+      "period": "/활성 좌석/월",
+      "description": "교육 사업 운영에 필요한 모든 것",
+      "features": [
+        "Canvas 시스템",
+        "AI 기반 평가",
+        "학생 관리",
+        "예약 시스템",
+        "진도 추적",
+        "CEFR 레벨",
+        "다국어 지원 (EN/JP/KO)",
+        "BYOK AI 도구"
+      ],
+      "cta": "무료 시작"
+    },
+    "calculator": {
+      "title": "절약 계산기",
+      "students": "학생",
+      "lokaMonthly": "Loka 월 비용",
+      "commissionMonthly": "수수료 플랫폼 비용",
+      "youSave": "절약 금액"
+    },
+    "faq": {
+      "title": "요금 FAQ",
+      "items": [
+        { "question": "활성 좌석이란 무엇인가요?", "answer": "활성 좌석은 현재 결제월에 최소 하나의 예약이 있는 학생입니다. 비활성 학생은 포함되지 않습니다." },
+        { "question": "무료 체험이 있나요?", "answer": "네! 무료 체험으로 플랫폼을 둘러볼 수 있습니다. 신용카드가 필요하지 않습니다." },
+        { "question": "언제든 해지할 수 있나요?", "answer": "물론입니다. 계약 없음, 약정 없음. 언제든 구독을 해지할 수 있습니다." },
+        { "question": "어떤 결제 수단을 받나요?", "answer": "Stripe를 통해 모든 주요 신용카드를 받습니다. 결제는 안전하게 처리됩니다." }
+      ]
+    },
+    "cta": {
+      "title": "수입을 더 많이 지킬 준비가 되셨나요?",
+      "button": "무료 시작"
+    }
+  },
+  "story": {
+    "hero": {
+      "title": "Loka 스토리",
+      "subtitle": "수정이 진보를 만드는 곳"
+    },
+    "sections": [
+      {
+        "title": "모든 것의 시작이 된 질문",
+        "content": "두 뇌는 같지 않습니다 — 그렇다면 학습은 왜 더 적응적일 수 없을까요? 이 질문이 23년간의 어학 교육, 수천 번의 수업, 수없이 많은 반복을 이끌었습니다. 그 답이 LokaLingo가 되었습니다."
+      },
+      {
+        "title": "이름에 담긴 의미",
+        "content": "Loka는 산스크리트어 लोक(loka)에서 유래했으며 '세계' 또는 '장소'를 의미합니다. 라틴어 lingua('언어')와 결합하여, LokaLingo는 '언어의 세계' — 모든 학습자의 세계가 커리큘럼을 만드는 곳을 뜻합니다."
+      },
+      {
+        "title": "CIP: Corrections Inspiring Progress",
+        "content": "LokaLingo의 핵심은 CIP — Corrections Inspiring Progress(수정이 진보를 만든다)입니다. 학습자가 대화에서 오류를 범하면 교사가 Canvas에 기록합니다. 그런 다음 AI가 그 교정을 맞춤형 복습 자료, 퀴즈, 간격 반복 학습으로 전환합니다. 모든 실수가 디딤돌이 됩니다."
+      },
+      {
+        "title": "세 가지 기둥",
+        "content": "우리가 만드는 모든 것은 세 가지 기둥 위에 세워집니다:\n\n**양성(Nurture)** — 실수를 두려워하지 않고 환영하는 협력적 학습 환경.\n\n**안내(Guide)** — 학습자와 교육자에게 명확한 방향을 제시하는 CEFR 기반 적응형 평가.\n\n**가속(Accelerate)** — 효율적이고 목표 지향적이며 몰입감 있는 AI 기반 학습 도구."
+      },
+      {
+        "title": "교육자가 교육자를 위해 만들었습니다",
+        "content": "LokaLingo는 기술 인큐베이터에서 태어나지 않았습니다. 교실에서 태어났습니다. 일본에서 Accent Language School을 23년간 운영하며 17,000건 이상의 수업을 진행한 끝에, 우리가 원했던 도구를 직접 만들었습니다. The Living Textbook이 바로 그 도구입니다."
+      },
+      {
+        "title": "비전",
+        "content": "LokaLingo는 시작에 불과합니다. 우리는 언어, 리더십, 전문 기술 등 모든 유형의 학습이 CIP 철학의 혜택을 받는 플랫폼을 향해 나아가고 있습니다. 오늘은 The Living Textbook이지만, 내일은 하나의 생태계입니다."
+      }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "문의하기",
+      "subtitle": "교육자, 학습자, 교육 기관 어디든 — 여러분의 이야기를 듣고 싶습니다."
+    },
+    "form": {
+      "name": "이름",
+      "email": "이메일",
+      "type": "해당 유형...",
+      "typeOptions": {
+        "educator": "어학 교육자",
+        "learner": "어학 학습자",
+        "school": "교육 기관",
+        "other": "기타"
+      },
+      "message": "메시지",
+      "submit": "메시지 보내기",
+      "success": "메시지가 전송되었습니다! 곧 회신 드리겠습니다.",
+      "error": "문제가 발생했습니다. 다시 시도해 주세요."
+    },
+    "calendly": {
+      "title": "무료 데모 예약",
+      "description": "The Living Textbook 20분 소개를 예약하세요."
+    },
+    "email": {
+      "title": "이메일 문의",
+      "address": "ryan@lokalingo.com"
+    }
+  },
+  "blog": {
+    "pageTitle": "블로그",
+    "pageSubtitle": "LokaLingo 팀이 전하는 어학 학습, EdTech, 교수법에 대한 인사이트.",
+    "backToBlog": "블로그로 돌아가기",
+    "readMore": "더 읽기",
+    "allCategories": "전체",
+    "categories": {
+      "Language Learning": "어학 학습",
+      "EdTech": "EdTech",
+      "Teaching Methods": "교수법",
+      "AI in Education": "AI 교육"
+    },
+    "noPostsInCategory": "이 카테고리에 아직 게시글이 없습니다. 곧 다시 확인해 주세요!",
+    "pagination": {
+      "previous": "이전",
+      "next": "다음",
+      "page": "페이지"
+    },
+    "posts": {}
+  },
+  "common": {
+    "learnMore": "자세히 보기",
+    "getStarted": "시작하기",
+    "bookDemo": "데모 예약",
+    "startFree": "무료 시작",
+    "backToHome": "홈으로 돌아가기"
+  },
+  "privacy": {
+    "title": "개인정보처리방침",
+    "content": "본 개인정보처리방침은 LokaLingo(株式会社)가 귀하의 개인정보를 수집, 이용 및 보호하는 방법을 설명합니다.\n\n## 수집하는 정보\n\n계정 생성 또는 서비스 구독 시 귀하가 직접 제공하는 이름, 이메일 주소, 결제 정보 등을 수집합니다.\n\n## 정보 이용 방법\n\n귀하의 정보는 서비스 제공 및 개선, 결제 처리, 커뮤니케이션 발송, 플랫폼 보안 확보를 위해 사용됩니다.\n\n## 데이터 보호\n\n귀하의 개인정보를 보호하기 위해 적절한 보안 조치를 시행합니다. 데이터는 안전하게 저장되며 제3자에게 절대 판매되지 않습니다.\n\n## 귀하의 권리\n\n귀하는 언제든지 개인정보에 대한 접근, 수정 또는 삭제를 요청할 수 있습니다. 데이터 관련 요청은 ryan@lokalingo.com으로 연락해 주세요.\n\n## 문의\n\n개인정보 관련 문의: ryan@lokalingo.com"
+  },
+  "terms": {
+    "title": "이용약관",
+    "content": "본 약관은 LokaLingo 플랫폼 및 서비스 이용에 적용됩니다.\n\n## 약관 동의\n\nLokaLingo를 이용함으로써 본 이용약관에 동의하게 됩니다.\n\n## 서비스\n\nLokaLingo는 The Living Textbook, AI 기반 평가, 학생 관리 도구를 포함한 어학 교육자 및 학습자를 위한 EdTech 플랫폼을 제공합니다.\n\n## 요금\n\n현재 요금은 활성 좌석당 월 $6입니다. 요금은 30일 전 공지 후 변경될 수 있습니다.\n\n## 귀하의 콘텐츠\n\n플랫폼에서 생성하는 모든 콘텐츠의 소유권은 귀하에게 있습니다. 귀하의 콘텐츠를 AI 모델 훈련에 사용하지 않습니다.\n\n## 해지\n\n언제든지 구독을 해지할 수 있습니다. 본 약관을 위반하는 계정은 종료될 수 있습니다.\n\n## 문의\n\n본 약관에 대한 질문: ryan@lokalingo.com"
+  },
+  "cookies": {
+    "title": "쿠키정책",
+    "content": "본 정책은 LokaLingo가 쿠키 및 유사 기술을 사용하는 방법을 설명합니다.\n\n## 쿠키란\n\n쿠키는 귀하의 기기에 저장되는 작은 텍스트 파일로, 서비스 제공 및 개선에 도움을 줍니다.\n\n## 사용하는 쿠키\n\n**필수 쿠키**는 플랫폼 기능(인증, 언어 설정, 테마 설정)에 필요합니다.\n\n**분석 쿠키**는 방문자가 웹사이트와 어떻게 상호작용하는지 이해하는 데 도움을 줍니다.\n\n## 쿠키 관리\n\n브라우저 설정에서 쿠키를 제어할 수 있습니다. 필수 쿠키를 비활성화하면 플랫폼 기능에 영향을 미칠 수 있습니다.\n\n## 문의\n\n쿠키정책에 대한 질문: ryan@lokalingo.com"
+  }
+}

@@ -1,0 +1,146 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  /* Light Mode — Loka brand: Navy/Red/Blue */
+  :root {
+    --background: 0 0% 100%;              /* #FFFFFF */
+    --foreground: 228 82% 25%;            /* Loka Navy #0C1775 */
+    --card: 0 0% 100%;
+    --card-foreground: 228 82% 25%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 228 82% 25%;
+    --primary: 228 82% 25%;               /* Loka Navy */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 20% 97%;             /* Gray 50 #F9FAFB */
+    --secondary-foreground: 228 82% 25%;
+    --accent: 338 86% 53%;                /* Loka Red #ED1E68 */
+    --accent-foreground: 0 0% 100%;
+    --info: 205 100% 60%;                 /* Loka Blue #32AFFF */
+    --muted: 220 14% 96%;                 /* Gray 100 #F3F4F6 */
+    --muted-foreground: 215 19% 35%;      /* Gray 700 #374151 */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 338 86% 53%;                  /* Loka Red focus rings */
+    --radius: 0.5rem;
+    --text: 215 19% 35%;                  /* Gray 700 for body text */
+  }
+
+  /* Dark Mode — Deep navy base (not pure black) */
+  .dark {
+    --background: 230 78% 6%;             /* Deep navy-black #0A0D2E */
+    --foreground: 0 0% 98%;
+    --card: 230 60% 10%;                  /* Dark navy card #0F1340 */
+    --card-foreground: 0 0% 95%;
+    --popover: 230 60% 10%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 0% 100%;                 /* White for primary in dark */
+    --primary-foreground: 228 82% 25%;    /* Navy on white */
+    --secondary: 230 50% 14%;
+    --secondary-foreground: 0 0% 90%;
+    --accent: 338 86% 53%;                /* Loka Red — same both modes */
+    --accent-foreground: 0 0% 100%;
+    --info: 205 100% 60%;                 /* Loka Blue — same both modes */
+    --muted: 230 40% 12%;
+    --muted-foreground: 215 20% 65%;
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 230 30% 20%;
+    --input: 230 30% 20%;
+    --ring: 338 86% 53%;
+    --text: 0 0% 88%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+  h1 {
+    @apply text-h1 text-primary;
+  }
+  h2 {
+    @apply text-h2 text-primary;
+  }
+  h3 {
+    @apply text-h3 text-primary;
+  }
+  h4 {
+    @apply text-h4 text-primary;
+  }
+
+  /* Japanese/Korean typography */
+  :lang(ja), :lang(ko) {
+    word-break: keep-all;
+    line-break: strict;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-accent text-accent-foreground px-6 py-3 rounded-lg font-semibold hover:bg-accent/90 hover:scale-[1.02] hover:shadow-lg transition-all;
+  }
+  .btn-secondary {
+    @apply bg-transparent text-primary border-2 border-primary px-6 py-3 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all;
+  }
+  .card-hover {
+    @apply bg-card border border-border rounded-xl p-8 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all;
+  }
+  .input-field {
+    @apply border border-border rounded-lg px-4 py-3 text-base focus:border-accent focus:ring-2 focus:ring-accent/20 outline-none w-full bg-background text-foreground;
+  }
+  .container-custom {
+    @apply max-w-container mx-auto px-6 md:px-12;
+  }
+}
+
+/* Animations */
+@keyframes border-trace {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+.animate-border-trace {
+  animation: border-trace 2.5s linear infinite;
+}
+
+.animate-shimmer {
+  animation: shimmer 2s linear infinite;
+  background: linear-gradient(90deg, transparent 0%, hsl(var(--accent) / 0.1) 50%, transparent 100%);
+  background-size: 200% 100%;
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}

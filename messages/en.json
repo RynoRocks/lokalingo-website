@@ -1,0 +1,405 @@
+{
+  "nav": {
+    "educators": "For Educators",
+    "learners": "For Learners",
+    "schools": "For Schools",
+    "pricing": "Pricing",
+    "story": "The Loka Story",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Explore The Living Textbook",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "footer": {
+    "tagline": "Empowering educators, engaging learners, and accelerating learning.",
+    "livingTextbook": "The Living Textbook",
+    "contact": "Contact",
+    "platformTitle": "Platform",
+    "companyTitle": "Company",
+    "legalTitle": "Legal",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "copyright": "\u682a\u5f0f\u4f1a\u793e 6011001118444 / ORBWEVA ABN 62159782318"
+  },
+  "home": {
+    "hero": {
+      "title": "Where Corrections Inspire Progress",
+      "subtitle": "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations \u2014 not a textbook.",
+      "primaryCta": "Explore The Living Textbook",
+      "secondaryCta": "Book a Free Demo"
+    },
+    "problems": {
+      "title": "Sound Familiar?",
+      "cards": [
+        {
+          "title": "Platforms take up to 60% of your earnings",
+          "description": "Commission-heavy marketplaces eat into what educators make. You do the teaching, they take the cut."
+        },
+        {
+          "title": "One-size-fits-all curriculum doesn\u2019t work",
+          "description": "Pre-written textbooks ignore that every learner is different. Generic content means generic results."
+        },
+        {
+          "title": "Managing a teaching business means drowning in admin",
+          "description": "Scheduling, tracking, assessments, payments \u2014 all separate tools, all eating your time."
+        }
+      ]
+    },
+    "difference": {
+      "title": "The Loka Difference",
+      "cards": [
+        {
+          "title": "For Educators",
+          "description": "Keep nearly 94% of your earnings. Flat $6/seat. No commissions. Your brand, your students, your way.",
+          "cta": "Learn More"
+        },
+        {
+          "title": "For Learners",
+          "description": "A curriculum built from your real conversations. Every correction becomes your next lesson.",
+          "cta": "Learn More"
+        },
+        {
+          "title": "For Education Businesses",
+          "description": "Scale your school with AI-powered assessments, automated curriculum, and predictable costs.",
+          "cta": "Learn More"
+        }
+      ]
+    },
+    "cip": {
+      "title": "How CIP Works",
+      "subtitle": "Every session makes every future session better. That\u2019s the CIP flywheel.",
+      "steps": [
+        {
+          "title": "Capture",
+          "description": "Real conversation errors are captured on a blank Canvas during lessons"
+        },
+        {
+          "title": "Generate",
+          "description": "AI auto-generates personalized quizzes, review material, and spaced repetition targets"
+        },
+        {
+          "title": "Deliver",
+          "description": "CEFR-aligned content is delivered at the right level, at the right time"
+        }
+      ]
+    },
+    "pricing": {
+      "price": "$6",
+      "period": "per active seat, per month",
+      "tagline": "No commissions. No hidden fees. No lock-in.",
+      "comparison": "At 50 students, you pay $300/month \u2014 not $3,300.",
+      "cta": "Start Free",
+      "note": "Add seats as you grow. Cancel anytime."
+    },
+    "testimonials": {
+      "title": "What People Say",
+      "items": [
+        {
+          "quote": "Loka has transformed my teaching. I can structure lessons my way and focus on my students\u2019 progress without worrying about high fees.",
+          "name": "Julio Marchand",
+          "title": "Language Teacher in Japan"
+        },
+        {
+          "quote": "The flexibility and goal-focused approach fit perfectly into my busy schedule.",
+          "name": "Masamichi Y.",
+          "title": "CEO at Perverz"
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is LokaLingo?",
+          "answer": "LokaLingo is an EdTech platform that empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations. Our core product, The Living Textbook, turns every correction into a personalized learning opportunity."
+        },
+        {
+          "question": "How is this different from iTalki, Preply, or Duolingo?",
+          "answer": "Unlike marketplaces that take commissions (up to 60%), Loka charges a flat $6/seat with no revenue sharing. Unlike generic apps, Loka builds a unique curriculum from each learner\u2019s actual conversations \u2014 every correction becomes a lesson."
+        },
+        {
+          "question": "What does $6/seat include?",
+          "answer": "Everything: Canvas system, AI-powered assessments, student management, booking system, progress tracking, CEFR levels, and multi-language support (EN/JP/KO). No tiers, no upsells."
+        },
+        {
+          "question": "Do I need technical knowledge?",
+          "answer": "Not at all. The platform is designed for educators, not developers. If you can use a web browser, you can use Loka."
+        },
+        {
+          "question": "Can I use my own AI tools?",
+          "answer": "Yes! Our BYOK (Bring Your Own Key) feature lets you connect your own OpenAI or Anthropic API keys to extend the platform with custom AI features."
+        },
+        {
+          "question": "Do I own my student data?",
+          "answer": "Absolutely. Your data is yours. We never sell, share, or use your student data for training AI models. You can export everything at any time."
+        },
+        {
+          "question": "What languages does the platform support?",
+          "answer": "The platform interface is available in English, Japanese, and Korean. You can teach any language \u2014 the Canvas and AI tools are language-agnostic."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Ready to teach on your terms?",
+      "subtitle": "Join educators who keep what they earn and give learners a truly personalized experience.",
+      "primaryCta": "Try The Living Textbook",
+      "secondaryCta": "Book a Free Demo"
+    }
+  },
+  "educators": {
+    "hero": {
+      "title": "Empowering Educators",
+      "subtitle": "Teach Your Way, Keep Your Earnings",
+      "description": "Loka gives you the tools to run your teaching business independently \u2014 AI-powered assessments, automated curriculum, and a flat $6/seat that never takes a commission."
+    },
+    "painSolution": {
+      "title": "The Problem \u2192 The Solution",
+      "cards": [
+        { "pain": "High commissions (up to 60%)", "solution": "Flat $6/seat \u2014 keep nearly 94% of what you earn" },
+        { "pain": "Generic, pre-written curriculum", "solution": "AI-personalized Canvas built from real lessons" },
+        { "pain": "Scattered tools for everything", "solution": "All-in-one platform: schedule, teach, assess, get paid" }
+      ]
+    },
+    "features": {
+      "title": "Everything You Need",
+      "items": [
+        { "title": "Canvas System", "description": "A blank slate that fills with real lesson content \u2014 CIPs, ARPs, keywords, and notes" },
+        { "title": "AI Assessment", "description": "5-dimension assessment model: Communicative Ability, Fluency, Listening, Vocabulary, Grammar" },
+        { "title": "Student Progress", "description": "Track every student\u2019s journey with CEFR-aligned levels and visual progress" },
+        { "title": "Booking Management", "description": "Built-in scheduling with calendar integration and automated reminders" },
+        { "title": "CEFR Levels", "description": "Internationally recognized framework for consistent, meaningful assessment" },
+        { "title": "Multi-Language", "description": "Platform available in English, Japanese, and Korean" }
+      ]
+    },
+    "earnings": {
+      "title": "Keep What You Earn",
+      "subtitle": "See how Loka compares to commission-based platforms",
+      "headers": ["Students", "Student Pays", "Loka Cost", "You Keep", "Commission Platform", "You Keep"],
+      "rows": [
+        ["10", "$50/mo each", "$60/mo", "$440/mo (88%)", "$500 \u00d7 40%", "$300/mo (60%)"],
+        ["25", "$50/mo each", "$150/mo", "$1,100/mo (88%)", "$1,250 \u00d7 40%", "$750/mo (60%)"],
+        ["50", "$50/mo each", "$300/mo", "$2,200/mo (88%)", "$2,500 \u00d7 40%", "$1,500/mo (60%)"],
+        ["100", "$50/mo each", "$600/mo", "$4,400/mo (88%)", "$5,000 \u00d7 40%", "$3,000/mo (60%)"]
+      ]
+    },
+    "cta": {
+      "title": "Start Teaching with Loka",
+      "subtitle": "Your brand. Your students. Your earnings.",
+      "button": "Get Started"
+    }
+  },
+  "learners": {
+    "hero": {
+      "title": "Your Mistakes Are Your Best Teacher",
+      "subtitle": "Loka builds a curriculum unique to you \u2014 from your real conversations, not a generic textbook. Every correction inspires your next step forward."
+    },
+    "cip": {
+      "title": "How Your Learning Evolves",
+      "steps": [
+        { "label": "Mistake", "description": "You make a natural error during conversation" },
+        { "label": "Correction", "description": "Your teacher captures it as a CIP on the Canvas" },
+        { "label": "Lesson", "description": "AI generates personalized review material just for you" },
+        { "label": "Progress", "description": "Spaced repetition ensures you master it over time" }
+      ]
+    },
+    "difference": {
+      "title": "What Makes Loka Different",
+      "cards": [
+        { "title": "Personalized Curriculum", "description": "Your Canvas is built from your actual conversations. No two learners get the same content." },
+        { "title": "CEFR-Aligned Progress", "description": "Track your skills across 5 dimensions with internationally recognized levels." },
+        { "title": "AI-Powered Review", "description": "Smart quizzes and spaced repetition target your specific weak points." }
+      ]
+    },
+    "pillars": {
+      "title": "The Three Pillars",
+      "items": [
+        { "title": "Nurture", "description": "A supportive environment where mistakes are celebrated as learning opportunities." },
+        { "title": "Guide", "description": "Clear, measurable progress through CEFR-aligned goals and assessments." },
+        { "title": "Accelerate", "description": "AI-powered practice that adapts to your pace and targets your needs." }
+      ]
+    },
+    "cta": {
+      "title": "Start Learning",
+      "subtitle": "Experience a curriculum built just for you.",
+      "button": "Get Started"
+    }
+  },
+  "schools": {
+    "hero": {
+      "title": "Scale Your Language School with AI",
+      "subtitle": "Predictable costs, automated assessments, and a platform built by someone who\u2019s run a school for 23 years."
+    },
+    "advantage": {
+      "title": "The 23-Year Advantage",
+      "description": "Accent Language School has delivered over 17,000 lessons. We didn\u2019t just study the problem \u2014 we lived it. The Living Textbook was built from real classroom needs, not theory."
+    },
+    "features": {
+      "title": "What Schools Get",
+      "items": [
+        { "title": "Multi-Teacher Management", "description": "Manage multiple educators, their schedules, and their students from one dashboard." },
+        { "title": "AI Assessments", "description": "Automated 5-dimension assessments that save hours of manual evaluation." },
+        { "title": "Automated Curriculum", "description": "AI generates personalized learning material from every lesson." },
+        { "title": "Progress Analytics", "description": "Track student progress across your entire school with visual dashboards." },
+        { "title": "Booking System", "description": "Integrated scheduling with calendar sync and automated reminders." },
+        { "title": "White-Label (Coming)", "description": "Brand the platform as your own. Coming soon for enterprise schools." }
+      ]
+    },
+    "cost": {
+      "title": "Predictable Costs",
+      "description": "No per-transaction fees. No revenue sharing. $6/seat whether your student pays $20 or $200."
+    },
+    "caseStudy": {
+      "title": "Case Study",
+      "description": "See how Accent Language School delivers 17,000+ lessons using The Living Textbook."
+    },
+    "cta": {
+      "title": "Book a School Demo",
+      "subtitle": "See how Loka can scale your language school.",
+      "button": "Book a Demo"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Simple Pricing",
+      "subtitle": "One plan. Everything included. No surprises."
+    },
+    "card": {
+      "price": "$6",
+      "period": "/active seat/month",
+      "description": "Everything you need to run your teaching business",
+      "features": [
+        "Canvas system",
+        "AI-powered assessments",
+        "Student management",
+        "Booking system",
+        "Progress tracking",
+        "CEFR levels",
+        "Multi-language (EN/JP/KO)",
+        "BYOK AI tools"
+      ],
+      "cta": "Start Free"
+    },
+    "calculator": {
+      "title": "Savings Calculator",
+      "students": "students",
+      "lokaMonthly": "Loka monthly cost",
+      "commissionMonthly": "Commission platform cost",
+      "youSave": "You save"
+    },
+    "faq": {
+      "title": "Pricing FAQ",
+      "items": [
+        { "question": "What counts as an active seat?", "answer": "An active seat is a student who has at least one booking in the current billing month. Inactive students don\u2019t count." },
+        { "question": "Is there a free tier?", "answer": "Yes! You can start with a free trial to explore the platform. No credit card required." },
+        { "question": "Can I cancel anytime?", "answer": "Absolutely. No contracts, no lock-in. Cancel your subscription at any time." },
+        { "question": "What payment methods do you accept?", "answer": "We accept all major credit cards through Stripe. Payments are processed securely." }
+      ]
+    },
+    "cta": {
+      "title": "Ready to keep more of what you earn?",
+      "button": "Start Free"
+    }
+  },
+  "story": {
+    "hero": {
+      "title": "The Loka Story",
+      "subtitle": "Where Corrections Inspire Progress"
+    },
+    "sections": [
+      {
+        "title": "The Question That Started Everything",
+        "content": "No two brains are alike \u2014 so why can\u2019t learning be more adaptive? This question drove 23 years of language teaching, thousands of lessons, and countless iterations. The answer became LokaLingo."
+      },
+      {
+        "title": "What\u2019s in a Name?",
+        "content": "Loka comes from Sanskrit \u0932\u094b\u0915 (loka), meaning \u2018world\u2019 or \u2018place.\u2019 Combined with lingua (Latin for \u2018language\u2019), LokaLingo means \u2018a world of language\u2019 \u2014 a place where every learner\u2019s world shapes their curriculum."
+      },
+      {
+        "title": "CIP: Corrections Inspiring Progress",
+        "content": "The heart of LokaLingo is CIP \u2014 Corrections Inspiring Progress. When a learner makes an error in conversation, the teacher captures it on the Canvas. AI then transforms that correction into personalized review material, quizzes, and spaced repetition. Every mistake becomes a stepping stone."
+      },
+      {
+        "title": "The Three Pillars",
+        "content": "Everything we build rests on three pillars:\n\n**Nurture** \u2014 A co-active learning environment where mistakes are celebrated, not feared.\n\n**Guide** \u2014 CEFR-aligned adaptive assessment that gives learners and educators a clear path forward.\n\n**Accelerate** \u2014 AI-powered tools that make practice efficient, targeted, and engaging."
+      },
+      {
+        "title": "Built by Educators, for Educators",
+        "content": "LokaLingo wasn\u2019t born in a tech incubator. It was born in a classroom. After 23 years running Accent Language School in Japan and delivering over 17,000 lessons, we built the tool we wished existed. The Living Textbook is that tool."
+      },
+      {
+        "title": "The Vision",
+        "content": "LokaLingo is just the beginning. We\u2019re building toward a platform where every type of learning \u2014 languages, leadership, professional skills \u2014 benefits from the CIP philosophy. Today it\u2019s The Living Textbook. Tomorrow it\u2019s an ecosystem."
+      }
+    ]
+  },
+  "contact": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Whether you\u2019re an educator, learner, or school \u2014 we\u2019d love to hear from you."
+    },
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "type": "I am a...",
+      "typeOptions": {
+        "educator": "Language Educator",
+        "learner": "Language Learner",
+        "school": "Education Business",
+        "other": "Other"
+      },
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent! We\u2019ll get back to you soon.",
+      "error": "Something went wrong. Please try again."
+    },
+    "calendly": {
+      "title": "Book a Free Demo",
+      "description": "Schedule a 20-minute walkthrough of The Living Textbook."
+    },
+    "email": {
+      "title": "Email Us",
+      "address": "ryan@lokalingo.com"
+    }
+  },
+  "blog": {
+    "pageTitle": "Blog",
+    "pageSubtitle": "Insights on language learning, EdTech, and teaching methods from the LokaLingo team.",
+    "backToBlog": "Back to Blog",
+    "readMore": "Read more",
+    "allCategories": "All",
+    "categories": {
+      "Language Learning": "Language Learning",
+      "EdTech": "EdTech",
+      "Teaching Methods": "Teaching Methods",
+      "AI in Education": "AI in Education"
+    },
+    "noPostsInCategory": "No posts in this category yet. Check back soon!",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page"
+    },
+    "posts": {}
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "getStarted": "Get Started",
+    "bookDemo": "Book a Demo",
+    "startFree": "Start Free",
+    "backToHome": "Back to Home"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "content": "This privacy policy describes how LokaLingo (\u682a\u5f0f\u4f1a\u793e) collects, uses, and protects your personal information.\n\n## Information We Collect\n\nWe collect information you provide directly, such as your name, email address, and payment information when you create an account or subscribe to our services.\n\n## How We Use Your Information\n\nWe use your information to provide and improve our services, process payments, send communications, and ensure platform security.\n\n## Data Protection\n\nWe implement appropriate security measures to protect your personal information. Your data is stored securely and is never sold to third parties.\n\n## Your Rights\n\nYou have the right to access, correct, or delete your personal information at any time. Contact us at ryan@lokalingo.com for any data requests.\n\n## Contact\n\nFor privacy-related inquiries: ryan@lokalingo.com"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "content": "These terms govern your use of the LokaLingo platform and services.\n\n## Acceptance of Terms\n\nBy using LokaLingo, you agree to these terms of service.\n\n## Services\n\nLokaLingo provides an EdTech platform for language educators and learners, including The Living Textbook, AI-powered assessments, and student management tools.\n\n## Pricing\n\nOur current pricing is $6 per active seat per month. Pricing may change with 30 days notice.\n\n## Your Content\n\nYou retain ownership of all content you create on the platform. We do not use your content to train AI models.\n\n## Termination\n\nYou may cancel your subscription at any time. We may terminate accounts that violate these terms.\n\n## Contact\n\nFor questions about these terms: ryan@lokalingo.com"
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "content": "This policy explains how LokaLingo uses cookies and similar technologies.\n\n## What Are Cookies\n\nCookies are small text files stored on your device that help us provide and improve our services.\n\n## Cookies We Use\n\n**Essential cookies** are required for the platform to function (authentication, language preference, theme preference).\n\n**Analytics cookies** help us understand how visitors interact with our website.\n\n## Managing Cookies\n\nYou can control cookies through your browser settings. Disabling essential cookies may affect platform functionality.\n\n## Contact\n\nFor questions about our cookie policy: ryan@lokalingo.com"
+  }
+}
