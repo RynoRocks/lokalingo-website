@@ -31,9 +31,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: page === '' ? 'weekly' : 'monthly',
         priority: page === '' ? 1.0 : page === '/pricing' ? 0.9 : 0.7,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${baseUrl}/${l}${page}`])
-          ),
+          languages: {
+            ...Object.fromEntries(
+              locales.map((l) => [l, `${baseUrl}/${l}${page}`])
+            ),
+            'x-default': `${baseUrl}/en${page}`,
+          },
         },
       });
     }
@@ -49,9 +52,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         changeFrequency: 'monthly',
         priority: 0.6,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${baseUrl}/${l}/blog/${getLocalizedSlug(post, l)}`])
-          ),
+          languages: {
+            ...Object.fromEntries(
+              locales.map((l) => [l, `${baseUrl}/${l}/blog/${getLocalizedSlug(post, l)}`])
+            ),
+            'x-default': `${baseUrl}/en/blog/${getLocalizedSlug(post, 'en')}`,
+          },
         },
       });
     }

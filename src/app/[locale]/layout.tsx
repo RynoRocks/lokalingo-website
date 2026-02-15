@@ -25,19 +25,6 @@ const jetbrainsMono = JetBrains_Mono({
   variable: '--font-jetbrains',
 });
 
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "LokaLingo",
-  alternateName: "Accent Language 株式会社",
-  url: "https://lokalingo.com",
-  description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
-  contactPoint: {
-    "@type": "ContactPoint",
-    email: "ryan@lokalingo.com",
-  },
-};
-
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -54,6 +41,21 @@ export default async function LocaleLayout({
   if (!locales.includes(locale as Locale)) {
     notFound();
   }
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "LokaLingo",
+    alternateName: "Accent Language 株式会社",
+    url: "https://lokalingo.com",
+    logo: "https://lokalingo.com/logo.png",
+    description: "LokaLingo empowers language educators with AI-powered tools and gives learners a curriculum built from their real conversations.",
+    inLanguage: locale,
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "ryan@lokalingo.com",
+    },
+  };
 
   const messages = await getMessages();
 

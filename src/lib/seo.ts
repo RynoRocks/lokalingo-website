@@ -10,24 +10,21 @@ export const siteConfig = {
 };
 
 export function generateAlternates(path: string, locale: string) {
+  const normalizedPath = path === '/' ? '' : path;
   const languages: Record<string, string> = {};
   locales.forEach((loc) => {
-    languages[loc] = `${siteConfig.url}/${loc}${path}`;
+    languages[loc] = `${siteConfig.url}/${loc}${normalizedPath}`;
   });
-  languages['x-default'] = `${siteConfig.url}/en${path}`;
+  languages['x-default'] = `${siteConfig.url}/en${normalizedPath}`;
 
   return {
-    canonical: `${siteConfig.url}/${locale}${path}`,
+    canonical: `${siteConfig.url}/${locale}${normalizedPath}`,
     languages,
   };
 }
 
-export function generateOgImageUrl(title: string, subtitle?: string) {
-  const params = new URLSearchParams({
-    title,
-    ...(subtitle && { subtitle }),
-  });
-  return `${siteConfig.url}/api/og?${params.toString()}`;
+export function generateOgImageUrl(_title: string, _subtitle?: string) {
+  return `${siteConfig.url}/logo.png`;
 }
 
 export function generateOpenGraph(
@@ -44,7 +41,7 @@ export function generateOpenGraph(
     description,
     url: `${siteConfig.url}/${locale}${path}`,
     siteName: siteConfig.name,
-    locale: locale === 'en' ? 'en_US' : locale,
+    locale: locale === 'en' ? 'en_US' : locale === 'ja' ? 'ja_JP' : locale === 'ko' ? 'ko_KR' : locale,
     type: 'website' as const,
     images: [{ url: ogImageUrl, width: 1200, height: 630, alt: title }],
   };
@@ -123,7 +120,7 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
       keywords: ['語学学校ソフトウェア', '学校管理', 'AI学校プラットフォーム', '教育ビジネス'],
     },
     ko: {
-      title: '학교용 - AI로 어학원을 확장하세요',
+      title: '학校용 - AI로 어학원을 확장하세요',
       description: '예측 가능한 비용, 자동 평가, 23년 학교 운영 경험에서 탄생한 플랫폼. 좌석당 월 $6.',
       keywords: ['어학원 소프트웨어', '학교 관리', 'AI 학교 플랫폼', '교육 비즈니스'],
     },
@@ -164,17 +161,17 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
   },
   story: {
     en: {
-      title: 'The Loka Story - Where Conversations Become Curriculum',
+      title: 'The Loka Story',
       description: 'From Sanskrit to software: how 23 years of language teaching inspired a platform that turns every conversation into a learning opportunity.',
       keywords: ['LokaLingo story', 'The Living Textbook', 'language teaching history', 'Loka etymology'],
     },
     ja: {
-      title: 'Lokaストーリー - 会話がカリキュラムになる場所',
+      title: 'Lokaストーリー',
       description: 'サンスクリット語からソフトウェアへ：23年の語学教育がすべての会話を学びの機会に変えるプラットフォームを生んだ物語。',
       keywords: ['LokaLingoの物語', 'ザ・リビング テキストブック', '語学教育の歴史'],
     },
     ko: {
-      title: 'Loka 이야기 - 대화가 커리큘럼이 되는 곳',
+      title: 'Loka 이야기',
       description: '산스크리트어에서 소프트웨어로: 23년의 어학 교육이 모든 대화를 학습 기회로 바꾸는 플랫폼을 탄생시킨 이야기.',
       keywords: ['LokaLingo 이야기', '더 리빙 텍스트북', '어학 교육 역사'],
     },
@@ -214,19 +211,19 @@ export const pageSeo: Record<string, Record<Locale, { title: string; description
     },
   },
   privacy: {
-    en: { title: 'Privacy Policy', description: 'LokaLingo Privacy Policy.', keywords: ['privacy policy'] },
-    ja: { title: 'プライバシーポリシー', description: 'LokaLingoプライバシーポリシー。', keywords: ['プライバシーポリシー'] },
-    ko: { title: '개인정보 처리방침', description: 'LokaLingo 개인정보 처리방침.', keywords: ['개인정보 처리방침'] },
+    en: { title: 'Privacy Policy', description: 'Read the LokaLingo privacy policy to understand how we collect, use, and protect your personal data across our language learning platform.', keywords: ['privacy policy'] },
+    ja: { title: 'プライバシーポリシー', description: 'LokaLingoのプライバシーポリシーをお読みいただき、言語学習プラットフォーム全体でお客様の個人データをどのように収集・使用・保護するかをご確認ください。', keywords: ['プライバシーポリシー'] },
+    ko: { title: '개인정보 처리방침', description: 'LokaLingo 개인정보 처리방침을 확인하여 언어 학습 플랫폼에서 개인 데이터를 수집, 사용 및 보호하는 방법을 알아보세요.', keywords: ['개인정보 처리방침'] },
   },
   terms: {
-    en: { title: 'Terms of Service', description: 'LokaLingo Terms of Service.', keywords: ['terms of service'] },
-    ja: { title: '利用規約', description: 'LokaLingo利用規約。', keywords: ['利用規約'] },
-    ko: { title: '이용약관', description: 'LokaLingo 이용약관.', keywords: ['이용약관'] },
+    en: { title: 'Terms of Service', description: 'Review the LokaLingo terms of service governing your use of our AI-powered language education platform, including subscriptions and data usage.', keywords: ['terms of service'] },
+    ja: { title: '利用規約', description: 'AI搭載の語学教育プラットフォームの利用に関するLokaLingo利用規約（サブスクリプションおよびデータ使用を含む）をご確認ください。', keywords: ['利用規約'] },
+    ko: { title: '이용약관', description: 'AI 기반 언어 교육 플랫폼 사용에 관한 LokaLingo 이용약관을 확인하세요. 구독 및 데이터 사용 관련 내용이 포함됩니다.', keywords: ['이용약관'] },
   },
   cookies: {
-    en: { title: 'Cookie Policy', description: 'LokaLingo Cookie Policy.', keywords: ['cookie policy'] },
-    ja: { title: 'Cookieポリシー', description: 'LokaLingo Cookieポリシー。', keywords: ['Cookieポリシー'] },
-    ko: { title: '쿠키 정책', description: 'LokaLingo 쿠키 정책.', keywords: ['쿠키 정책'] },
+    en: { title: 'Cookie Policy', description: 'Learn how LokaLingo uses cookies and similar technologies to improve your experience on our language education platform and protect your privacy.', keywords: ['cookie policy'] },
+    ja: { title: 'Cookieポリシー', description: 'LokaLingoが語学教育プラットフォームでのエクスペリエンス向上とプライバシー保護のためにCookieや類似技術をどのように使用するかをご確認ください。', keywords: ['Cookieポリシー'] },
+    ko: { title: '쿠키 정책', description: 'LokaLingo가 언어 교육 플랫폼에서 쿠키 및 유사 기술을 사용하여 경험을 개선하고 개인정보를 보호하는 방법을 확인하세요.', keywords: ['쿠키 정책'] },
   },
 };
 
