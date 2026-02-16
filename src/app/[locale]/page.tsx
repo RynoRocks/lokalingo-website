@@ -168,7 +168,7 @@ export default async function HomePage() {
                 <p className="text-text mb-6">{t('pricing.tagline')}</p>
                 <p className="text-sm text-accent font-medium mb-6">{t('pricing.comparison')}</p>
                 <Button asChild variant="accent" size="xl" className="w-full">
-                  <Link href="https://thelivingtextbook.lokalingo.com/login">
+                  <Link href="https://thelivingtextbook.lokalingo.com/start-free">
                     {t('pricing.cta')}
                   </Link>
                 </Button>

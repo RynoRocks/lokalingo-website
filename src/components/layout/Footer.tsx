@@ -29,6 +29,7 @@ export function Footer() {
       { name: tNav('blog'), href: `/${locale}/blog` },
       { name: t('contact'), href: `/${locale}/contact` },
       { name: tNav('pricing'), href: `/${locale}/pricing` },
+      { name: t('docs'), href: 'https://docs.lokalingo.com' },
     ],
     legal: [
       { name: t('privacy'), href: `/${locale}/privacy` },

@@ -106,7 +106,7 @@ export default async function LearnersPage() {
               <h2 className="text-h2 mb-4">{t('cta.title')}</h2>
               <p className="text-xl text-text mb-8">{t('cta.subtitle')}</p>
               <Button asChild variant="accent" size="xl">
-                <Link href="https://thelivingtextbook.lokalingo.com/login">
+                <Link href="https://thelivingtextbook.lokalingo.com/start-free">
                   {t('cta.button')}<ArrowRight className="w-5 h-5 ml-1" />
                 </Link>
               </Button>
