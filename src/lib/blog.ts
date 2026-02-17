@@ -37,7 +37,16 @@ export interface BlogMessages {
 
 // Blog posts array - n8n workflow prepends new posts here
 // Start empty — posts added via n8n automation
-export const blogPosts: BlogPostMeta[] = [];
+export const blogPosts: BlogPostMeta[] = [
+  {
+    id: 'loka-1771294459023',
+    slug: 'ai-language-teaching-assistant-2026-20260217',
+    date: '2026-02-17',
+    category: 'AI in Education',
+    readTime: '8 min read',
+    author: 'LokaLingo',
+  },
+];
 
 export function getLocalizedSlug(post: BlogPostMeta, locale: string): string {
   if (locale === 'ja' && post.slugs?.ja) return post.slugs.ja;
