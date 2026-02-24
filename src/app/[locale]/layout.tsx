@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation';
 import { Exo_2, Noto_Sans_JP, JetBrains_Mono } from 'next/font/google';
 import { Header, Footer } from "@/components/layout";
 import { ThemeProvider } from "@/components/ThemeProvider";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { locales, type Locale } from '@/i18n';
 
 const exo2 = Exo_2({
@@ -100,6 +102,8 @@ export default async function LocaleLayout({
             <Footer />
           </NextIntlClientProvider>
         </ThemeProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

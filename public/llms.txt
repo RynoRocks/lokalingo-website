@@ -1,0 +1,31 @@
+# LokaLingo
+
+> AI-powered language learning and teaching platform. Built for independent educators — Canvas whiteboard system captures real conversations, AI generates assessments, and spaced repetition drives retention. Flat $6/seat pricing with no commissions.
+
+## Pages
+
+- [Home](https://lokalingo.com/en): Main landing page — value proposition, how it works, pricing overview
+- [For Educators](https://lokalingo.com/en/for-educators): Canvas workflow, AI assessment, student management, earnings model
+- [For Learners](https://lokalingo.com/en/for-learners): 5-dimension AI progress tracking, spaced repetition, CEFR alignment
+- [For Schools](https://lokalingo.com/en/for-schools): Multi-teacher management, institutional licensing
+- [Use Cases](https://lokalingo.com/en/use-cases): Real-world teaching scenarios
+- [Pricing](https://lokalingo.com/en/pricing): $6/seat/month flat rate, plan comparison
+- [The Loka Story](https://lokalingo.com/en/the-loka-story): 23 years of language education history
+- [Blog](https://lokalingo.com/en/blog): Language learning science, AI education, teaching methods
+
+## Product Documentation
+
+- [Docs](https://docs.lokalingo.com): Getting started, educator guides, learner guides, creator guides, FAQ
+- [The Living Textbook](https://thelivingtextbook.lokalingo.com/en): AI-powered curriculum platform — Canvas, assessment engine, features
+
+## Legal
+
+- [Privacy Policy](https://lokalingo.com/en/privacy)
+- [Terms of Service](https://lokalingo.com/en/terms)
+- [Cookie Policy](https://lokalingo.com/en/cookies)
+
+## Optional
+
+- [Contact](https://lokalingo.com/en/contact): Get in touch with LokaLingo team
+- [日本語サイト](https://lokalingo.com/ja): Japanese language version
+- [한국어 사이트](https://lokalingo.com/ko): Korean language version
