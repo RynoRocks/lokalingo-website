@@ -45,6 +45,7 @@ export const blogPosts: BlogPostMeta[] = [
     category: 'Teaching Methods',
     readTime: '10 min read',
     author: 'LokaLingo',
+    heroImage: 'https://tskaeijjtjnbjofecpiz.supabase.co/storage/v1/object/public/blog-images/heroes/loka-1771963504944.png',
   },
   {
     id: 'loka-1771877104945',
