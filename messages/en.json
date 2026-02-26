@@ -376,6 +376,8 @@
       "subtitle": "One plan. Everything included. No surprises."
     },
     "card": {
+      "trial": "14-day free trial",
+      "trialDetail": "1 educator seat + 1 learner seat. No credit card required.",
       "price": "$6",
       "period": "/active seat/month",
       "description": "Everything you need to run your teaching business",
@@ -406,8 +408,8 @@
           "answer": "An active seat is a student who has at least one booking in the current billing month. Inactive students don’t count."
         },
         {
-          "question": "Is there a free tier?",
-          "answer": "Yes! You can start with a free trial to explore the platform. No credit card required."
+          "question": "Is there a free trial?",
+          "answer": "Yes! Start with a 14-day free trial that includes 1 educator seat and 1 learner seat. No credit card required."
         },
         {
           "question": "Can I cancel anytime?",

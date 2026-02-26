@@ -40,12 +40,16 @@ export default function PricingContent() {
             <div className="max-w-md mx-auto">
               <AnimatedCard className="p-10">
                 <div className="text-center mb-8">
+                  <div className="inline-block bg-accent/10 text-accent font-semibold text-sm px-4 py-1.5 rounded-full mb-4">
+                    {t('card.trial')}
+                  </div>
                   <div className="flex items-baseline justify-center gap-1 mb-2">
                     <DollarSign className="w-8 h-8 text-accent" />
                     <span className="text-7xl font-extrabold text-primary">6</span>
                   </div>
                   <p className="text-lg text-text">{t('card.period')}</p>
                   <p className="text-text mt-2">{t('card.description')}</p>
+                  <p className="text-sm text-muted-foreground mt-2">{t('card.trialDetail')}</p>
                 </div>
                 <ul className="space-y-3 mb-8">
                   {features.map((feature, i) => (
