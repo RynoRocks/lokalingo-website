@@ -117,7 +117,7 @@ export default async function UseCasesPage() {
               <p className="text-xl text-text mb-8">{t('cta.subtitle')}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild variant="accent" size="xl">
-                  <Link href="https://thelivingtextbook.lokalingo.com">
+                  <Link href={`https://thelivingtextbook.lokalingo.com/${locale}`}>
                     {t('cta.primaryButton')}<ArrowRight className="w-5 h-5 ml-1" />
                   </Link>
                 </Button>

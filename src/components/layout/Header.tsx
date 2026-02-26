@@ -94,7 +94,7 @@ export function Header() {
           <LanguageSwitcher />
           <ThemeToggle />
           <Button asChild variant="accent" size="lg">
-            <Link href="https://thelivingtextbook.lokalingo.com">{t('cta')}</Link>
+            <Link href={`https://thelivingtextbook.lokalingo.com/${locale}`}>{t('cta')}</Link>
           </Button>
         </div>
 
@@ -159,7 +159,7 @@ export function Header() {
                 <ThemeToggle />
               </div>
               <Button asChild variant="accent" className="w-full">
-                <Link href="https://thelivingtextbook.lokalingo.com" onClick={() => setMobileMenuOpen(false)}>
+                <Link href={`https://thelivingtextbook.lokalingo.com/${locale}`} onClick={() => setMobileMenuOpen(false)}>
                   {t('cta')}
                 </Link>
               </Button>

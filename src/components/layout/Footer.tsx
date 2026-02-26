@@ -18,7 +18,7 @@ export function Footer() {
 
   const footerLinks = {
     platform: [
-      { name: t('livingTextbook'), href: 'https://thelivingtextbook.lokalingo.com' },
+      { name: t('livingTextbook'), href: `https://thelivingtextbook.lokalingo.com/${locale}` },
       { name: tNav('educators'), href: `/${locale}/for-educators` },
       { name: tNav('learners'), href: `/${locale}/for-learners` },
       { name: tNav('schools'), href: `/${locale}/for-schools` },

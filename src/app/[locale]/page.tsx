@@ -39,7 +39,7 @@ export default async function HomePage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild variant="accent" size="xl">
-                  <Link href="https://thelivingtextbook.lokalingo.com">
+                  <Link href={`https://thelivingtextbook.lokalingo.com/${locale}`}>
                     {t('hero.primaryCta')}
                     <ArrowRight className="w-5 h-5 ml-1" />
                   </Link>
@@ -210,7 +210,7 @@ export default async function HomePage() {
               <p className="text-xl text-text mb-8">{t('finalCta.subtitle')}</p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button asChild variant="accent" size="xl">
-                  <Link href="https://thelivingtextbook.lokalingo.com">
+                  <Link href={`https://thelivingtextbook.lokalingo.com/${locale}`}>
                     {t('finalCta.primaryCta')}
                     <ArrowRight className="w-5 h-5 ml-1" />
                   </Link>
